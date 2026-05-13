@@ -19,7 +19,7 @@ class Lisa < Formula
 
   def install
     # Install npm deps, build TypeScript, prep assets for the bundled CLI.
-    system "npm", "install", *std_npm_args(prepend_node_path: true)
+    system "npm", "install", *std_npm_args
     system "npm", "run", "build"
 
     # Install everything via libexec so we don't pollute the prefix.
