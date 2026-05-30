@@ -14,8 +14,8 @@ class Lisa < Formula
   # dist/ (compiled JS + 114 pixel-art mood portraits) so the formula doesn't
   # need to run `tsc` (which would require TypeScript devDependencies that
   # `npm install --global` skips).
-  url "https://registry.npmjs.org/@oratis/lisa/-/lisa-0.3.1.tgz"
-  sha256 "a6545079b186e614a189d46148c8b48f7ce4398b95069092cad3f2a2a8cbd4bf"
+  url "https://registry.npmjs.org/@oratis/lisa/-/lisa-0.4.0.tgz"
+  sha256 "d9153f59b36862ce9f2081256fd664e857d7d330eaa74aa7c0432a17d8482aef"
   license "MIT"
   head "https://github.com/oratis/LISA.git", branch: "main"
 
